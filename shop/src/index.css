@@ -11,3 +11,58 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+body,
+.bodyTab {
+  background-color: #1a1a1a;
+}
+#loginContainer,
+.sideItemList {
+  background-color: #222;
+}
+#barTop,
+#userInfo {
+  background-color: #333;
+}
+#sideMenuContainer,
+.subMenuWell,
+#mainBody {
+  background: #333;
+}
+#sideMenu a {
+  font-size: 100%;
+}
+#sideMenu a:active {
+  background-color: #111;
+}
+#sideMenu a.selected {
+  background-color: #222;
+  color: #5EA8DE;
+}
+input[type=text],
+input[type=password],
+input[type=url],
+input[type=number],
+input[type=email],
+input[type=search],
+select,
+textarea {
+  background-color: #474747;
+}
+input.searchBox {
+  background-color: transparent;
+}
+.wizardTab .wizardContents {
+  background-color: #222;
+  border-bottom: 8px solid #444;
+}
+.wizardTab .wizardContents h2 {
+  background-color: #444;
+}
+.scheduleTriggerInfo {
+  border: 1px solid #444;
+  background-color: #333;
+}
+.settingsGroup .groupBody .settingContainer {
+  background-color: #333;
+}
