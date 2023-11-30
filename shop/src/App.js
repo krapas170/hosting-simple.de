@@ -29,7 +29,7 @@ function App() {
 
   return (
     <Router>
-      <div>
+      <div style={{ width: "100%" }}>
         <Header />
         <div>{pageComponent}</div>
         <Footer />
