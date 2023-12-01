@@ -32,7 +32,7 @@ function Login({ nextPage }) {
 
   return (
     <div className="container mt-5" style={MainDivStyle}>
-      <h1>Login</h1>
+      <h1>Loginfffffffffffffffffffff</h1>
       <form onSubmit={() => nextPage("server-auswahl")}>
         <div className="form-group">
           <label htmlFor="email" style={{ fontWeight: "bold" }}>Benutzername oder E-Mail:</label>
