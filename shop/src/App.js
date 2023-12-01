@@ -5,7 +5,7 @@ import { BrowserRouter as Router } from "react-router-dom";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import LoginPage from "./sites/Login";
-import Register1Page from "./sites/Register1";
+import RegisterPage from "./sites/Register";
 import GameAuswahlPage from "./sites/GameAuswahl";
 
 import "./App.css";
@@ -24,7 +24,7 @@ function App() {
   } else if (currentPage === "server-auswahl") {
     pageComponent = <GameAuswahlPage nextPage={nextPage} />;
   } else if (currentPage === "registrieren") {
-    pageComponent = <Register1Page />;
+    pageComponent = <RegisterPage />;
   }
 
   return (
