@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from "%PUBLIC_URL%/logo.png";
+import logo from "../logo.png";
 
 function Header() {
   const shopStyle = {
