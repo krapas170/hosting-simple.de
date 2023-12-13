@@ -35,7 +35,22 @@ function Registrieren({ nextPage }) {
       <h1>Registrieren</h1>
       <form onSubmit={() => nextPage("Login2")}>
         <div className="form-group">
-          <label htmlFor="email" style={{ fontWeight: "bold" }}>Benutzername oder E-Mail:</label>
+          <label htmlFor="username" style={{ fontWeight: "bold" }}>
+            Benutzername
+          </label>
+          <input
+            type="text"
+            className="form-control"
+            id="username"
+            value={username}
+            onChange={(e) => setUsername(e.target.value)}
+            style={inputStyle}
+          />
+        </div>
+        <div className="form-group" style={{ marginTop: "10px" }}>
+        <label htmlFor="email" style={{ fontWeight: "bold" }}>
+            E-Mail Adresse
+          </label>
           <input
             type="text"
             className="form-control"
@@ -46,7 +61,9 @@ function Registrieren({ nextPage }) {
           />
         </div>
         <div className="form-group" style={{ marginTop: "10px" }}>
-        <label htmlFor="password" style={{ fontWeight: "bold" }}>Passwort:</label>
+          <label htmlFor="password" style={{ fontWeight: "bold" }}>
+            Passwort:
+          </label>
           <input
             type="password"
             className="form-control"
@@ -56,7 +73,11 @@ function Registrieren({ nextPage }) {
             style={inputStyle}
           />
         </div>
-        <button type="submit" className="btn btn-primary" style={{ marginTop: "10px" }}>
+        <button
+          type="submit"
+          className="btn btn-primary"
+          style={{ marginTop: "10px" }}
+        >
           Anmelden
         </button>
       </form>
