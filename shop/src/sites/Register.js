@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 
 function Registrieren({ nextPage }) {
+  const [username, setUsername] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
@@ -48,7 +49,7 @@ function Registrieren({ nextPage }) {
           />
         </div>
         <div className="form-group" style={{ marginTop: "10px" }}>
-        <label htmlFor="email" style={{ fontWeight: "bold" }}>
+          <label htmlFor="email" style={{ fontWeight: "bold" }}>
             E-Mail Adresse
           </label>
           <input
