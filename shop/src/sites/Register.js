@@ -79,19 +79,9 @@ function Registrieren({ nextPage }) {
           className="btn btn-primary"
           style={{ marginTop: "10px" }}
         >
-          Anmelden
-        </button>
-      </form>
-      <p className="mt-3">
-        Bereits registriert?{" "}
-        <button
-          onClick={() => nextPage("login")}
-          className="btn btn-link"
-          style={{ marginTop: "20px" }}
-        >
           Registrieren
         </button>
-      </p>
+      </form>
     </div>
   );
 }
