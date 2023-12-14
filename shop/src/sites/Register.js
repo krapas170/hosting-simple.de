@@ -77,7 +77,7 @@ function Registrieren({ nextPage }) {
         <button
           type="submit"
           className="btn btn-primary"
-          style={{ marginTop: "10px" }}
+          style={{ marginTop: "10px", marginBottom: "20px"}}
         >
           Registrieren
         </button>
